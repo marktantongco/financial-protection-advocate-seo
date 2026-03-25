@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pacific Cross / Non-Life Insurance / HMO Philippines — SEO + GEO Niche Content Strategy for Financial Protection Advocate">
+  <meta name="keywords" content="Pacific Cross Philippines, health insurance Philippines, HMO vs insurance, non-life insurance IC Philippines">
+  <meta name="author" content="Marky Tantongco">
+  <meta name="theme-color" content="#ff3e00">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Financial Protection Advocate | SEO Content Engine">
+  <meta property="og:description" content="Pacific Cross / Non-Life Insurance / HMO Philippines — Complete SEO Content Strategy">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://marktantongco.github.io/financial-protection-advocate-seo">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Financial Protection Advocate | SEO Content Engine">
+  <meta name="twitter:creator" content="@markytanky">
+  
+  <title>Financial Protection Advocate | SEO Content Engine</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --color-background: #0a0a0a;
+      --color-foreground: #ffffff;
+      --color-primary: #ff3e00;
+      --color-accent: #00ff88;
+      --color-muted: #888888;
+      --color-border: #333333;
+      --color-card: #111111;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background-color: var(--color-background);
+      color: var(--color-foreground);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    
+    a {
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: var(--color-primary);
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    /* Header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: var(--color-background);
+      border-bottom: 2px solid var(--color-foreground);
+      padding: 15px 0;
+    }
+    
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 18px;
+    }
+    
+    .logo-text {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    
+    .logo-text span {
+      font-size: 11px;
+      color: var(--color-muted);
+      display: block;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 10px;
+    }
+    
+    .btn {
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border: 2px solid var(--color-foreground);
+      background: transparent;
+      color: var(--color-foreground);
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+    
+    .btn:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0 var(--color-foreground);
+    }
+    
+    .btn-primary {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+    }
+    
+    /* Hero */
+    .hero {
+      padding: 120px 0 60px;
+      text-align: center;
+    }
+    
+    .hero h1 {
+      font-size: clamp(32px, 8vw, 80px);
+      font-weight: 800;
+      line-height: 0.95;
+      margin-bottom: 20px;
+    }
+    
+    .hero h1 .primary {
+      color: var(--color-primary);
+    }
+    
+    .hero h1 .accent {
+      color: var(--color-accent);
+    }
+    
+    .hero p {
+      font-size: 18px;
+      color: var(--color-muted);
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    
+    .hero p strong {
+      color: var(--color-foreground);
+    }
+    
+    /* Badges */
+    .badges {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    
+    .badge {
+      padding: 6px 12px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: 2px solid;
+    }
+    
+    .badge-primary {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+    }
+    
+    .badge-accent {
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+    }
+    
+    .badge-warning {
+      border-color: #ffcc00;
+      color: #ffcc00;
+    }
+    
+    /* Stats */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin: 40px 0;
+    }
+    
+    .stat-card {
+      background: var(--color-card);
+      border: 2px solid var(--color-foreground);
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .stat-card:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 8px 8px 0 var(--color-foreground);
+    }
+    
+    .stat-number {
+      font-size: 48px;
+      font-weight: 800;
+    }
+    
+    .stat-number.primary { color: var(--color-primary); }
+    .stat-number.accent { color: var(--color-accent); }
+    .stat-number.warning { color: #ffcc00; }
+    
+    .stat-label {
+      font-size: 12px;
+      color: var(--color-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 5px;
+    }
+    
+    /* Section */
+    section {
+      padding: 60px 0;
+    }
+    
+    .section-title {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 30px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--color-border);
+    }
+    
+    /* Content Grid */
+    .content-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    
+    .content-card {
+      background: var(--color-card);
+      border: 2px solid var(--color-border);
+      padding: 20px;
+      transition: all 0.2s;
+    }
+    
+    .content-card:hover {
+      border-color: var(--color-primary);
+    }
+    
+    .content-card h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .content-card p {
+      font-size: 14px;
+      color: var(--color-muted);
+    }
+    
+    /* Progress */
+    .progress-container {
+      background: var(--color-card);
+      border: 2px solid var(--color-foreground);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .progress-bar {
+      height: 8px;
+      background: var(--color-border);
+      margin: 15px 0;
+    }
+    
+    .progress-fill {
+      height: 100%;
+      background: var(--color-primary);
+      width: 12.5%;
+      transition: width 0.5s;
+    }
+    
+    .progress-text {
+      font-size: 14px;
+      color: var(--color-muted);
+    }
+    
+    /* Post List */
+    .post-list {
+      list-style: none;
+    }
+    
+    .post-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 15px;
+      border-bottom: 1px solid var(--color-border);
+      transition: background 0.2s;
+    }
+    
+    .post-item:hover {
+      background: var(--color-card);
+    }
+    
+    .post-number {
+      width: 30px;
+      height: 30px;
+      background: var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    
+    .post-number.completed {
+      background: var(--color-primary);
+    }
+    
+    .post-info {
+      flex: 1;
+    }
+    
+    .post-title {
+      font-weight: 700;
+      font-size: 14px;
+    }
+    
+    .post-keyword {
+      font-size: 12px;
+      color: var(--color-accent);
+    }
+    
+    .post-status {
+      padding: 4px 8px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .post-status.completed {
+      background: var(--color-primary);
+      color: white;
+    }
+    
+    .post-status.pending {
+      background: var(--color-border);
+      color: var(--color-muted);
+    }
+    
+    /* Links Section */
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    
+    .link-card {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: var(--color-card);
+      border: 2px solid var(--color-foreground);
+      padding: 20px;
+      transition: all 0.2s;
+    }
+    
+    .link-card:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 8px 8px 0 var(--color-foreground);
+    }
+    
+    .link-icon {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: 800;
+    }
+    
+    .link-icon.github {
+      background: var(--color-foreground);
+      color: var(--color-background);
+    }
+    
+    .link-icon.notion {
+      background: var(--color-primary);
+      color: white;
+    }
+    
+    .link-content h3 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    
+    .link-content p {
+      font-size: 12px;
+      color: var(--color-muted);
+    }
+    
+    /* Footer */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--color-background);
+      border-top: 2px solid var(--color-foreground);
+      padding: 10px 0;
+      font-size: 12px;
+    }
+    
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .footer-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .footer-right {
+      color: var(--color-muted);
+    }
+    
+    .footer-right .primary {
+      color: var(--color-primary);
+    }
+    
+    .footer-right .accent {
+      color: var(--color-accent);
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+      
+      .nav-links {
+        width: 100%;
+        justify-content: center;
+      }
+      
+      .footer-content {
+        justify-content: center;
+        text-align: center;
+      }
+      
+      body {
+        padding-bottom: 80px;
+      }
+    }
+    
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .animate-in {
+      animation: fadeInUp 0.5s ease-out forwards;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <div class="logo">
+        <div class="logo-icon">FP</div>
+        <div class="logo-text">
+          FINANCIAL PROTECTION ADVOCATE
+          <span>SEO Content Engine v1.0</span>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="https://github.com/marktantongco/financial-protection-advocate-seo" class="btn" target="_blank">GitHub</a>
+        <a href="https://www.notion.so/3245ac674b2780e9a52cea36d416c82c" class="btn btn-primary" target="_blank">Notion</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="badges">
+        <span class="badge badge-primary">Version 1.0</span>
+        <span class="badge badge-accent">IC Philippines Compliant</span>
+        <span class="badge badge-warning">1/8 Posts</span>
+      </div>
+      
+      <h1>
+        <span class="primary">SEO</span> CONTENT<br>
+        <span class="accent">ENGINE</span>
+      </h1>
+      
+      <p>
+        Pacific Cross / Non-Life Insurance / HMO Philippines — 
+        <strong>GEO + AI Search Optimization</strong>
+      </p>
+      
+      <div class="stats">
+        <div class="stat-card animate-in">
+          <div class="stat-number primary">1</div>
+          <div class="stat-label">Posts Completed</div>
+        </div>
+        <div class="stat-card animate-in" style="animation-delay: 0.1s">
+          <div class="stat-number accent">8</div>
+          <div class="stat-label">Cluster Posts</div>
+        </div>
+        <div class="stat-card animate-in" style="animation-delay: 0.2s">
+          <div class="stat-number">10</div>
+          <div class="stat-label">Providers</div>
+        </div>
+        <div class="stat-card animate-in" style="animation-delay: 0.3s">
+          <div class="stat-number warning">15</div>
+          <div class="stat-label">Semantic Terms</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Production Progress -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">📊 Production Progress</h2>
+      
+      <div class="progress-container">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span style="font-weight: 700;">Content Production</span>
+          <span style="color: var(--color-accent);">12.5% Complete</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill"></div>
+        </div>
+        <div class="progress-text">1 of 8 cluster posts completed</div>
+      </div>
+      
+      <ul class="post-list">
+        <li class="post-item">
+          <div class="post-number completed">✓</div>
+          <div class="post-info">
+            <div class="post-title">Pacific Cross FlexiShield Review</div>
+            <div class="post-keyword">Pacific Cross health insurance review</div>
+          </div>
+          <span class="post-status completed">Completed</span>
+        </li>
+        <li class="post-item">
+          <div class="post-number">2</div>
+          <div class="post-info">
+            <div class="post-title">HMO vs Insurance Comparison</div>
+            <div class="post-keyword">HMO vs health insurance Philippines</div>
+          </div>
+          <span class="post-status pending">Pending</span>
+        </li>
+        <li class="post-item">
+          <div class="post-number">3</div>
+          <div class="post-info">
+            <div class="post-title">Pre-Existing Conditions Guide</div>
+            <div class="post-keyword">health insurance pre-existing conditions</div>
+          </div>
+          <span class="post-status pending">Pending</span>
+        </li>
+        <li class="post-item">
+          <div class="post-number">4</div>
+          <div class="post-info">
+            <div class="post-title">7 Signs You Need Insurance</div>
+            <div class="post-keyword">health insurance Philippines</div>
+          </div>
+          <span class="post-status pending">Pending</span>
+        </li>
+        <li class="post-item">
+          <div class="post-number">5</div>
+          <div class="post-info">
+            <div class="post-title">Health Insurance Cost Calculator</div>
+            <div class="post-keyword">health insurance cost Philippines</div>
+          </div>
+          <span class="post-status pending">Pending</span>
+        </li>
+        <li class="post-item">
+          <div class="post-number">6</div>
+          <div class="post-info">
+            <div class="post-title">OFW Family Health Insurance</div>
+            <div class="post-keyword">health insurance for OFW families</div>
+          </div>
+          <span class="post-status pending">Pending</span>
+        </li>
+        <li class="post-item">
+          <div class="post-number">7</div>
+          <div class="post-info">
+            <div class="post-title">How to Buy Health Insurance</div>
+            <div class="post-keyword">how to apply for health insurance</div>
+          </div>
+          <span class="post-status pending">Pending</span>
+        </li>
+        <li class="post-item">
+          <div class="post-number">8</div>
+          <div class="post-info">
+            <div class="post-title">Losing Company HMO Guide</div>
+            <div class="post-keyword">company HMO vs personal insurance</div>
+          </div>
+          <span class="post-status pending">Pending</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Providers -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">🏢 Providers Covered</h2>
+      
+      <div class="content-grid">
+        <div class="content-card">
+          <h3>Pacific Cross Philippines</h3>
+          <p>Primary provider for detailed reviews</p>
+        </div>
+        <div class="content-card">
+          <h3>MediCard</h3>
+          <p>HMO comparison reference</p>
+        </div>
+        <div class="content-card">
+          <h3>PhilCare</h3>
+          <p>Network size comparison</p>
+        </div>
+        <div class="content-card">
+          <h3>Etiqa</h3>
+          <p>Guaranteed renewability example</p>
+        </div>
+        <div class="content-card">
+          <h3>ValuCare</h3>
+          <p>Mid-tier pricing option</p>
+        </div>
+        <div class="content-card">
+          <h3>Oona Insurance</h3>
+          <p>Digital-first alternative</p>
+        </div>
+        <div class="content-card">
+          <h3>IMS Wellthcare</h3>
+          <p>Wellness-focused coverage</p>
+        </div>
+        <div class="content-card">
+          <h3>iCare</h3>
+          <p>Budget-conscious option</p>
+        </div>
+        <div class="content-card">
+          <h3>Cocolife</h3>
+          <p>Life + health bundling</p>
+        </div>
+        <div class="content-card">
+          <h3>Keystone</h3>
+          <p>Broker/aggregator platform</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources -->
+  <section style="padding-bottom: 100px;">
+    <div class="container">
+      <h2 class="section-title">🔗 Resources</h2>
+      
+      <div class="links-grid">
+        <a href="https://github.com/marktantongco/financial-protection-advocate-seo" class="link-card" target="_blank">
+          <div class="link-icon github">⟨⟩</div>
+          <div class="link-content">
+            <h3>GitHub Repository</h3>
+            <p>Source files, templates, documentation</p>
+          </div>
+        </a>
+        
+        <a href="https://www.notion.so/3245ac674b2780e9a52cea36d416c82c" class="link-card" target="_blank">
+          <div class="link-icon notion">N</div>
+          <div class="link-content">
+            <h3>Notion Database</h3>
+            <p>Production tracking, content pipeline</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span>FINANCIAL PROTECTION ADVOCATE</span>
+        <span style="color: var(--color-primary);">|</span>
+        <span style="color: var(--color-accent);">IC PH LICENSED</span>
+      </div>
+      <div class="footer-right">
+        <span class="primary">1</span>/8 POSTS • <span class="accent">12.5%</span> COMPLETE
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
