@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Pacific Cross FlexiShield Review: Is It Worth It for Self-Employed Filipinos?",
+  "description": "Pacific Cross health insurance Philippines review: FlexiShield plans, pricing, network size, premium loading, and honest pros/cons for self-employed Filipinos.",
+  "image": "https://financialprotectionadvocate.ph/images/pacific-cross-review.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Marky Tantongco",
+    "url": "https://financialprotectionadvocate.ph",
+    "jobTitle": "Licensed Non-Life Insurance Agent",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Financial Protection Advocate"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Financial Protection Advocate",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://financialprotectionadvocate.ph/logo.png"
+    }
+  },
+  "datePublished": "2024-01-15",
+  "dateModified": "2024-04-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://financialprotectionadvocate.ph/reviews/pacific-cross-flexishield-review"
+  },
+  "articleSection": "Insurance Review",
+  "wordCount": 1650,
+  "keywords": [
+    "Pacific Cross health insurance Philippines",
+    "FlexiShield review",
+    "health insurance for self-employed Filipinos",
+    "non-life insurance Philippines",
+    "premium loading"
+  ]
+}

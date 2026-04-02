@@ -25,8 +25,8 @@ const contentData = {
   ],
   clusterPosts: [
     { id: 1, title: "Pacific Cross FlexiShield Review", keyword: "Pacific Cross health insurance review", stage: "Consideration", status: "completed", volume: "880/mo" },
-    { id: 2, title: "HMO vs Insurance Comparison", keyword: "HMO vs health insurance Philippines", stage: "Consideration", status: "pending", volume: "1,900/mo" },
-    { id: 3, title: "Pre-Existing Conditions Guide", keyword: "health insurance pre-existing conditions", stage: "Decision", status: "pending", volume: "1,200/mo" },
+    { id: 2, title: "HMO vs Insurance Comparison", keyword: "HMO vs health insurance Philippines", stage: "Consideration", status: "completed", volume: "1,900/mo" },
+    { id: 3, title: "Pre-Existing Conditions Guide", keyword: "health insurance pre-existing conditions", stage: "Decision", status: "completed", volume: "1,200/mo" },
     { id: 4, title: "7 Signs You Need Insurance", keyword: "health insurance Philippines", stage: "Awareness", status: "pending", volume: "2,400/mo" },
     { id: 5, title: "Health Insurance Cost Calculator", keyword: "health insurance cost Philippines", stage: "Decision", status: "pending", volume: "3,100/mo" },
     { id: 6, title: "OFW Family Health Insurance", keyword: "health insurance for OFW families", stage: "Consideration", status: "pending", volume: "590/mo" },
@@ -159,10 +159,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="stat-card bg-card p-4 brutalist-border brutalist-shadow"
             onMouseEnter={handleCardHover} onMouseLeave={handleCardLeave}>
-            <div className="text-3xl sm:text-4xl font-black text-primary">1</div>
+            <div className="text-3xl sm:text-4xl font-black text-primary">3</div>
             <div className="text-xs text-muted-foreground uppercase tracking-wider mt-1">Posts Completed</div>
             <div className="mt-2 h-1 bg-muted">
-              <div className="h-full bg-primary" style={{ width: '12.5%' }}></div>
+              <div className="h-full bg-primary" style={{ width: '37.5%' }}></div>
             </div>
           </div>
           <div className="stat-card bg-card p-4 brutalist-border brutalist-shadow"
@@ -422,7 +422,7 @@ export default function Home() {
             <span className="text-accent">IC PH LICENSED</span>
           </div>
           <div className="text-muted-foreground">
-            <span className="text-primary">1</span>/8 POSTS • <span className="text-accent">12.5%</span> COMPLETE
+            <span className="text-primary">3</span>/8 POSTS • <span className="text-accent">37.5%</span> COMPLETE
           </div>
         </div>
       </footer>

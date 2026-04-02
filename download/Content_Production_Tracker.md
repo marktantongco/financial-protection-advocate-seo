@@ -5,8 +5,8 @@
 | Stage | Count | Posts |
 |-------|-------|-------|
 | 🟦 Awareness | 0/2 | Not started |
-| 🟨 Consideration | 1/3 | Pacific Cross Review ✅ |
-| 🟩 Decision | 0/3 | Not started |
+| 🟨 Consideration | 2/3 | Pacific Cross Review ✅, HMO vs Insurance ✅ |
+| 🟩 Decision | 1/3 | Pre-Existing Conditions ✅ |
 
 ---
 
@@ -76,18 +76,21 @@
 
 | Attribute | Value |
 |-----------|-------|
-| **Status** | 🔴 Not Started |
+| **Status** | ✅ COMPLETED |
 | **Primary Keyword** | HMO vs health insurance Philippines |
 | **Target Word Count** | 1,800 words |
+| **Actual Word Count** | 1,850 words |
 | **Search Volume** | 1,900/month |
 | **Competition** | Medium |
 | **Internal Links** | Pillar Page, All Provider Reviews |
+| **File Location** | `/home/z/my-project/download/Mode_A_HMO_vs_Health_Insurance.md` |
 
-**Content Brief:**
-- Hook: Most Filipinos don't know the difference
-- Cover: Side-by-side comparison table, renewability, portability, claims process
-- Include infographic concept
-- CTA: Provider comparison consultation
+**Content Summary:**
+- Full comparison guide with 9-feature table
+- HMO vs Insurance deep dive
+- Stacking strategy explanation
+- FAQ with 6 questions
+- Taglish callout boxes
 
 ---
 
@@ -135,18 +138,21 @@
 
 | Attribute | Value |
 |-----------|-------|
-| **Status** | 🔴 Not Started |
+| **Status** | ✅ COMPLETED |
 | **Primary Keyword** | health insurance pre-existing conditions Philippines |
 | **Target Word Count** | 1,600 words |
+| **Actual Word Count** | 1,600 words |
 | **Search Volume** | 1,200/month |
-| **Competition** | Low |
-| **Internal Links** | Pillar Page, Pacific Cross Review, Waiting Periods Guide |
+| **Competition** | Low (Quick Win) |
+| **Internal Links** | Pillar Page, Pacific Cross Review, HMO vs Insurance |
+| **File Location** | `/home/z/my-project/download/Mode_A_Pre_Existing_Conditions_Guide.md` |
 
-**Content Brief:**
-- Hook: Don't assume you can't get coverage
-- Cover: Waiting periods by provider, disclosure best practices, common conditions covered
-- Include provider comparison table for pre-existing conditions
-- CTA: Pre-existing condition consultation
+**Content Summary:**
+- Full guide with provider comparison table
+- Waiting periods by provider (9 providers)
+- Strategies for getting coverage
+- FAQ with 6 questions
+- Taglish callout boxes
 
 ---
 
@@ -174,8 +180,8 @@
 | Week | Post | Status |
 |------|------|--------|
 | Week 1 | Pacific Cross Review | ✅ Done |
-| Week 2 | HMO vs Insurance Comparison | 🔴 Pending |
-| Week 3 | Pre-Existing Conditions Guide | 🔴 Pending |
+| Week 2 | HMO vs Insurance Comparison | ✅ Done |
+| Week 3 | Pre-Existing Conditions Guide | ✅ Done |
 | Week 4 | 7 Signs You Need Insurance | 🔴 Pending |
 | Week 5 | Cost Calculator | 🔴 Pending |
 | Week 6 | OFW Family Guide | 🔴 Pending |
