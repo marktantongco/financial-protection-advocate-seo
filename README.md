@@ -5,7 +5,7 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-ff3e00?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 ![IC Philippines](https://img.shields.io/badge/IC%20Philippines-Compliant-00ff88?style=for-the-badge)
-![Content Progress](https://img.shields.io/badge/Posts-1%2F8-ffcc00?style=for-the-badge)
+![Content Progress](https://img.shields.io/badge/Posts-2%2F8-ffcc00?style=for-the-badge)
 
 **Pacific Cross / Non-Life Insurance / HMO Philippines — SEO + GEO Niche Content Strategy**
 
@@ -237,10 +237,10 @@ This repository contains the **complete SEO content strategy** for **Financial P
 ╔══════════════════════════════════════════════════════════════════╗
 ║                    PRODUCTION PROGRESS                           ║
 ╠══════════════════════════════════════════════════════════════════╣
-║  [████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 1/8 Posts (12.5%)   ║
+║  [████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 2/8 Posts (25%)     ║
 ╠══════════════════════════════════════════════════════════════════╣
 ║  ✅ Pacific Cross FlexiShield Review      — COMPLETED            ║
-║  🔴 HMO vs Insurance Comparison          — Pending               ║
+║  ✅ HMO vs Insurance Comparison          — COMPLETED            ║
 ║  🔴 Pre-Existing Conditions Guide        — Pending               ║
 ║  🔴 7 Signs You Need Insurance           — Pending               ║
 ║  🔴 Cost Calculator                      — Pending               ║
@@ -284,7 +284,9 @@ financial-protection-advocate-seo/
 | File | Format | Description | Path |
 |------|--------|-------------|------|
 | **Semantic Content Map** | Word (.docx) | Full formatted document with tables | `/download/Financial_Protection_Advocate_Semantic_Content_Seeding_Map.docx` |
-| **Mode A Blog Post** | Markdown | Pacific Cross FlexiShield Review (1,650 words) | `/download/Mode_A_Pacific_Cross_FlexiShield_Review.md` |
+| **Mode A: Pacific Cross Review** | Markdown | Pacific Cross FlexiShield Review (1,650 words) | `/download/Mode_A_Pacific_Cross_FlexiShield_Review.md` |
+| **Mode A: HMO vs Insurance** | Markdown | Complete comparison guide (1,850 words) | `/download/Mode_A_HMO_vs_Health_Insurance.md` |
+| **Mode D: Topical Authority Blueprint** | Markdown | Full 3-tier content architecture | `/download/Mode_D_Topical_Authority_Blueprint.md` |
 | **Production Tracker** | Markdown | Content production status tracker | `/download/Content_Production_Tracker.md` |
 
 ### External Links
@@ -646,7 +648,7 @@ Use this checklist for every blog post:
 | Week | Post | Stage | Keyword | Status |
 |------|------|-------|---------|--------|
 | Week 1 | Pacific Cross FlexiShield Review | Consideration | Pacific Cross health insurance review | ✅ Done |
-| Week 2 | HMO vs Insurance Comparison | Consideration | HMO vs health insurance Philippines | 🔴 Pending |
+| Week 2 | HMO vs Insurance Comparison | Consideration | HMO vs health insurance Philippines | ✅ Done |
 | Week 3 | Pre-Existing Conditions Guide | Decision | health insurance pre-existing conditions | 🔴 Pending |
 | Week 4 | 7 Signs You Need Insurance | Awareness | health insurance Philippines | 🔴 Pending |
 | Week 5 | Health Insurance Cost Calculator | Decision | health insurance cost Philippines | 🔴 Pending |
