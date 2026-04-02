@@ -1,0 +1,31 @@
+{
+  "name": "Financial Protection Advocate - SEO Content Engine",
+  "short_name": "FPA SEO Engine",
+  "description": "Pacific Cross / Non-Life Insurance / HMO Philippines — SEO + GEO Niche Content Strategy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#ff3e00",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "View Progress",
+      "url": "/?tab=overview",
+      "description": "View content production progress"
+    },
+    {
+      "name": "Cluster Posts",
+      "url": "/?tab=posts",
+      "description": "View all cluster posts"
+    }
+  ]
+}
