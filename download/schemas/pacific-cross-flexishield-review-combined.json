@@ -1,0 +1,114 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Pacific Cross FlexiShield Review: Is It Worth It for Self-Employed Filipinos?",
+    "description": "Pacific Cross health insurance Philippines review: FlexiShield plans, pricing, network size, premium loading, and honest pros/cons for self-employed Filipinos. Get a free consultation today.",
+    "image": "https://financialprotectionadvocate.ph/images/pacific-cross-review.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Marky Tantongco",
+      "url": "https://financialprotectionadvocate.ph",
+      "jobTitle": "Licensed Non-Life Insurance Agent",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Financial Protection Advocate"
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Financial Protection Advocate",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://financialprotectionadvocate.ph/logo.png"
+      }
+    },
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://financialprotectionadvocate.ph/blog/pacific-cross-flexishield-review"
+    },
+    "wordCount": 1650,
+    "articleSection": "Provider Review",
+    "keywords": ["Pacific Cross Philippines", "health insurance review", "FlexiShield", "self-employed health insurance", "non-life insurance Philippines"]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Pacific Cross a legitimate insurance provider?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Pacific Cross is registered with the Insurance Commission of the Philippines and has been operating since 1995. They are a legitimate non-life insurance provider for health coverage with over 1,600 accredited doctors and hospitals nationwide."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does Pacific Cross FlexiShield cost per month?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Monthly premiums range from approximately ₱1,500 for basic coverage to ₱10,000+ for premium plans. The exact cost depends on your age, health history, and chosen benefit limit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use Pacific Cross at any hospital?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cashless hospitalization is available at accredited hospitals only. At non-accredited hospitals, you'll need to pay upfront and file for reimbursement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if I have a pre-existing condition?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pre-existing conditions are covered after a 6-12 month waiting period. You must disclose all conditions during application to avoid claim denial."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will my premium increase after I file a claim?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Possibly. Pacific Cross may apply premium loading based on your claims history. This is standard practice for indemnity insurance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I stack Pacific Cross with PhilHealth and an HMO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, this is recommended. PhilHealth covers the base, HMO handles routine care, and Pacific Cross provides catastrophic coverage and portability."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://financialprotectionadvocate.ph"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://financialprotectionadvocate.ph/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pacific Cross FlexiShield Review",
+        "item": "https://financialprotectionadvocate.ph/blog/pacific-cross-flexishield-review"
+      }
+    ]
+  }
+]

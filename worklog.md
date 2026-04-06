@@ -150,3 +150,29 @@ Stage Summary:
 - Comparison tables include waiting periods for 9 major providers
 - All compliance requirements met (IC Philippines, no guaranteed claims, proper disclaimers)
 - 3/8 cluster posts now completed (37.5% progress)
+
+---
+Task ID: 6
+Agent: Main Coordinator
+Task: Add blog posts to website, create FAQ schemas, update Notion
+
+Work Log:
+- Created /src/lib/posts.ts with all 8 blog posts data structure
+- Added full content for 3 completed posts (Pacific Cross, HMO vs Insurance, Pre-Existing Conditions)
+- Created /src/app/blog/page.tsx - blog listing page with brutalist design
+- Created /src/app/blog/[slug]/page.tsx - individual blog post page with ReactMarkdown rendering
+- Updated main dashboard page to show 3/8 posts completed (37.5%)
+- Added BLOG link to header navigation
+- Added quick links section with Blog, GitHub, Notion cards
+- Created /download/schemas/pacific-cross-flexishield-review-faq.json - FAQPage schema
+- Created /download/schemas/pacific-cross-flexishield-review-combined.json - Combined Article + FAQ + Breadcrumb schema
+- Created /src/lib/schema-generator.ts - Reusable schema generation utilities
+- Created pre-built FAQ arrays for all 3 completed posts
+
+Stage Summary:
+- Blog infrastructure fully implemented in Next.js PWA
+- 3 completed posts accessible at /blog URL
+- JSON-LD schemas created for SEO rich snippets
+- Mode E schema templates applied
+- Website now displays correct progress (3/8 posts, 37.5%)
+- Ready for Notion database updates

@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import Link from 'next/link'
 import gsap from 'gsap'
 
 // Data
@@ -24,9 +25,9 @@ const contentData = {
     { name: "Keystone", role: "Broker/aggregator platform", status: "active" }
   ],
   clusterPosts: [
-    { id: 1, title: "Pacific Cross FlexiShield Review", keyword: "Pacific Cross health insurance review", stage: "Consideration", status: "completed", volume: "880/mo" },
-    { id: 2, title: "HMO vs Insurance Comparison", keyword: "HMO vs health insurance Philippines", stage: "Consideration", status: "completed", volume: "1,900/mo" },
-    { id: 3, title: "Pre-Existing Conditions Guide", keyword: "health insurance pre-existing conditions", stage: "Decision", status: "completed", volume: "1,200/mo" },
+    { id: 1, title: "Pacific Cross FlexiShield Review", keyword: "Pacific Cross health insurance review", stage: "Consideration", status: "completed", volume: "880/mo", slug: "pacific-cross-flexishield-review" },
+    { id: 2, title: "HMO vs Insurance Comparison", keyword: "HMO vs health insurance Philippines", stage: "Consideration", status: "completed", volume: "1,900/mo", slug: "hmo-vs-health-insurance-philippines" },
+    { id: 3, title: "Pre-Existing Conditions Guide", keyword: "health insurance pre-existing conditions", stage: "Decision", status: "completed", volume: "1,200/mo", slug: "pre-existing-conditions-health-insurance-guide" },
     { id: 4, title: "7 Signs You Need Insurance", keyword: "health insurance Philippines", stage: "Awareness", status: "pending", volume: "2,400/mo" },
     { id: 5, title: "Health Insurance Cost Calculator", keyword: "health insurance cost Philippines", stage: "Decision", status: "pending", volume: "3,100/mo" },
     { id: 6, title: "OFW Family Health Insurance", keyword: "health insurance for OFW families", stage: "Consideration", status: "pending", volume: "590/mo" },
@@ -128,6 +129,9 @@ export default function Home() {
             </div>
           </div>
           <nav className="flex items-center gap-2">
+            <Link href="/blog" className="px-3 py-1.5 bg-accent text-background text-xs font-bold brutalist-border brutalist-hover transition-all">
+              BLOG
+            </Link>
             <a href="https://github.com/marktantongco/financial-protection-advocate-seo" target="_blank" rel="noopener noreferrer" 
               className="px-3 py-1.5 bg-secondary text-foreground text-xs font-bold brutalist-border brutalist-hover transition-all">
               GITHUB
@@ -253,14 +257,23 @@ export default function Home() {
               </div>
 
               {/* Quick Links */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <Link href="/blog" className="bg-card p-6 brutalist-border brutalist-shadow brutalist-hover transition-all block group">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-accent text-background flex items-center justify-center text-2xl">📖</div>
+                    <div>
+                      <div className="text-lg font-black group-hover:text-primary transition-colors">BLOG</div>
+                      <div className="text-xs text-muted-foreground">Published articles</div>
+                    </div>
+                  </div>
+                </Link>
                 <a href="https://github.com/marktantongco/financial-protection-advocate-seo" target="_blank" rel="noopener noreferrer"
                   className="bg-card p-6 brutalist-border brutalist-shadow brutalist-hover transition-all block group">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-foreground text-background flex items-center justify-center text-2xl">⟨⟩</div>
                     <div>
                       <div className="text-lg font-black group-hover:text-primary transition-colors">GITHUB REPOSITORY</div>
-                      <div className="text-xs text-muted-foreground">Source files, templates, documentation</div>
+                      <div className="text-xs text-muted-foreground">Source files, templates</div>
                     </div>
                   </div>
                 </a>
@@ -270,7 +283,7 @@ export default function Home() {
                     <div className="w-12 h-12 bg-primary text-white flex items-center justify-center text-2xl">N</div>
                     <div>
                       <div className="text-lg font-black group-hover:text-primary transition-colors">NOTION DATABASE</div>
-                      <div className="text-xs text-muted-foreground">Production tracking, content pipeline</div>
+                      <div className="text-xs text-muted-foreground">Production tracking</div>
                     </div>
                   </div>
                 </a>
